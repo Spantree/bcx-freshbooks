@@ -59,6 +59,11 @@ grails.exceptionresolver.params.exclude = ['password']
 // enable query caching by default
 grails.hibernate.cache.queries = true
 
+grails.config.locations = [
+	"file:${userHome}/bcx.properties",
+	"file:${userHome}/freshbooks.properties",
+]
+
 // set per-environment serverURL stem for creating absolute links
 environments {
     development {
