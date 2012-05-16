@@ -6,9 +6,10 @@
 
 Add a `bcx.properties` file to your user home folder with your basecamp credentials.
 
-`
+```
 bcx.username=yourusername
 bcx.password=yourpassword
-`
+bcx.companyCode=1234567
+```
 
 This app will eventually be updated to support OAuth.
